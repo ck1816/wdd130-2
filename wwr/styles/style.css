@@ -1,5 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Grechen+Fuemen&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Trade+Winds&display=swap'); 
 body {
     background-color: #b2aba9;
+    font-family: "Sour Gummy", Garamond, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 #content {
     max-width: 1600px;
@@ -7,14 +14,24 @@ body {
 }
 header {
     background-color: #998d85;
+    width: 100%;
+    height: 100%;
+}
+#logo_link {
+    text-align: center;
+    padding-top: 5px;
 }
 .logo {
     width: 80px;
 }
 nav a {
-    text-align: center;
     color: #0a0326;
     text-decoration: none;
+    font-family: "Grechen Fuemen", Garamond, serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    padding: 35px;
 }
 nav a:hover {
     background-color: #153608;
@@ -28,9 +45,21 @@ nav a:hover {
 }
 .home-title {
     color: #0a0326;
+    text-align: center;
+    font-family: "Grechen Fuemen", Garamond, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
+    padding: 5px;
+    margin-top: 10px;
 }
 h4 {
     color: #0a0326;
+    text-align: center;
+    font-family: "Grechen Fuemen", Garamond, serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 5px;
 }
 .button-box {
     text-align: center;
@@ -39,6 +68,13 @@ h4 {
     background-color: #b2aba9;
     color: #0a0326;
     text-decoration: none;
+    font-family: "Sour Gummy", Garamond, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: #153608;
@@ -47,8 +83,23 @@ h4 {
 main section {
     text-align: center;
 }
+main section img {
+    box-sizing: border-box;
+}
+.home-grid {
+    font-family: "Trade Winds", Garamond, serif;
+    font-weight: 400;
+    font-style: normal; 
+}
+.card-img {
+    border: 10px solid #0a0326;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 #background {
     height: 725px;
@@ -56,16 +107,33 @@ main section {
 }
 .msg {
     background-color: #998d85;
+    line-height: 1.5em;
+    padding: 35px;
+}
+h2 {
+    margin: 0;
 }
 .msg h2 {
     color: #0a0326;
+    text-align: center;
+    font-family: "Grechen Fuemen", Garamond, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
 }
 .msg p {
     color: #0a0326;
+    font-family: "Sour Gummy", Garamond, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer {
     background-color: #998d85;
     color: #0a0326;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a {
     color: #0a0326;
@@ -79,4 +147,7 @@ footer p {
 }
 footer p a:hover {
     text-decoration: underline;
+}
+footer .social img {
+    padding-top: 15px;
 }
